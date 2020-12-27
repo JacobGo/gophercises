@@ -19,7 +19,7 @@
   </component>
   <component name="GOROOT" url="file://$USER_HOME$/.asdf/installs/golang/1.15.6/go" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../gophercises" />
   </component>
   <component name="ProjectId" id="1mA8RHI3zr91sKz4NXVl23UAIzf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -29,6 +29,22 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go Application" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="332" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="332" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="333" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="332" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="332" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="332" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="333" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="332" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
