@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d8c4135-3a28-4152-b83c-cfd0c0ebd400" name="Default Changelist" comment="" />
+    <list default="true" id="2d8c4135-3a28-4152-b83c-cfd0c0ebd400" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/quiz/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quiz/problems.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quiz/quiz.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quiz/scoreboard.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gogurt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gogurt.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerStuff/Hello" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerStuff/Hello.go" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,8 +23,12 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file://$USER_HOME$/sdk/go1.16beta1" />
+  <component name="GOROOT" url="file://$USER_HOME$/.asdf/installs/golang/1.15.6/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1mA8RHI3zr91sKz4NXVl23UAIzf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -25,28 +38,60 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="configurable..is.expanded" value="false" />
+    <property name="configurable..is.expanded" value="true" />
     <property name="configurable.GoLibrariesConfigurable.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
-  <component name="RunManager">
-    <configuration name="go build Hello.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/quiz" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.Quiz Client">
+    <configuration name="Quiz Client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="gogurt" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Hello.go" />
+      <filePath value="$PROJECT_DIR$/quiz/Quiz.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="Scoreboard Server" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="gogurt" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/quiz/Scoreboard.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.Scoreboard Server" />
+      <item itemvalue="Go Build.Quiz Client" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build Hello.go" />
+        <item itemvalue="Go Build.Quiz Client" />
+        <item itemvalue="Go Build.Scoreboard Server" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
