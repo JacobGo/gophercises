@@ -10,6 +10,7 @@
 * Identified clients through the [machineid go module](https://github.com/denisbrodbeck/machineid).
 
 ### Ideas
+* Customizable time limit
 * Randomly generate questions on the Scoreboard Server
 * Show the full Scoreboard in an ASCII table on the client
 * Randomly generate names for machine ids

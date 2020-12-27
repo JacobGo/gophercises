@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/gogurt.iml" filepath="$PROJECT_DIR$/.idea/gogurt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/gophercises.iml" filepath="$PROJECT_DIR$/.idea/gophercises.iml" />
     </modules>
   </component>
 </project>

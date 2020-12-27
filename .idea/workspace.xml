@@ -1,111 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d8c4135-3a28-4152-b83c-cfd0c0ebd400" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gogurt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gophercises.iml" afterDir="false" />
+    <list default="true" id="6d450fa2-97e7-43fa-a1ac-0bb63c694b25" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gophercises.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gophercises.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Go Application" />
-      </list>
-    </option>
-  </component>
   <component name="GOROOT" url="file://$USER_HOME$/.asdf/installs/golang/1.15.6/go" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../gophercises" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1mA8RHI3zr91sKz4NXVl23UAIzf" />
+  <component name="ProjectId" id="1mEjx793ieI7gb0IYiXyALBKRLv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultGoTemplateProperty" value="Go Application" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="332" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="332" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="333" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="332" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="332" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="332" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="333" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="332" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="configurable..is.expanded" value="true" />
+    <property name="configurable..is.expanded" value="false" />
     <property name="configurable.GoLibrariesConfigurable.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="go.vgo" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="go.sdk" />
   </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/quiz" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Go Build.Scoreboard Server">
-    <configuration name="Quiz Client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
-      <module name="gophercises" />
-      <working_directory value="$PROJECT_DIR$/../gophercises" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/../gophercises/quiz/Quiz.go" />
-      <directory value="$PROJECT_DIR$" />
+  <component name="RunManager" selected="Compound.Run Quiz">
+    <configuration name="Run Quiz" type="CompoundRunConfigurationType">
+      <toRun name="Scoreboard Server" type="GoApplicationRunConfiguration" />
+      <toRun name="Quiz Client" type="GoApplicationRunConfiguration" />
       <method v="2" />
     </configuration>
-    <configuration name="Scoreboard Server" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
-      <module name="gophercises" />
-      <working_directory value="$PROJECT_DIR$/../gophercises" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/../gophercises/quiz/Scoreboard.go" />
-      <directory value="$PROJECT_DIR$" />
+    <configuration default="true" type="CompoundRunConfigurationType">
+      <toRun name="Scoreboard Server" type="GoApplicationRunConfiguration" />
+      <toRun name="Quiz Client" type="GoApplicationRunConfiguration" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+    <configuration name="Quiz Client" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="gophercises" />
       <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/quiz/quiz.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+    <configuration name="Scoreboard Server" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="gophercises" />
       <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
-      <framework value="gotest" />
-      <kind value="DIRECTORY" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/quiz/scoreboard.go" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.Scoreboard Server" />
+      <item itemvalue="Compound.Run Quiz" />
       <item itemvalue="Go Build.Quiz Client" />
+      <item itemvalue="Go Build.Scoreboard Server" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Go Build.Quiz Client" />
-        <item itemvalue="Go Build.Scoreboard Server" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,17 +74,6 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
-        <entry key="1">
-          <value>
-            <State>
-              <option name="CUSTOM_BOOLEAN_PROPERTIES">
-                <map>
-                  <entry key="Show.Git.Branches" value="true" />
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
         <entry key="MAIN">
           <value>
             <State />
@@ -132,6 +81,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
