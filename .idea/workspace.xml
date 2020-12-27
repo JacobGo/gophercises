@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d8c4135-3a28-4152-b83c-cfd0c0ebd400" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/quiz/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quiz/problems.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quiz/quiz.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quiz/scoreboard.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gogurt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gogurt.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gogurt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gophercises.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServerStuff/Hello" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServerStuff/Hello.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,21 +44,40 @@
       <recent name="$PROJECT_DIR$/quiz" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.Quiz Client">
+  <component name="RunManager" selected="Go Build.Scoreboard Server">
     <configuration name="Quiz Client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
-      <module name="gogurt" />
-      <working_directory value="$PROJECT_DIR$" />
+      <module name="gophercises" />
+      <working_directory value="$PROJECT_DIR$/../gophercises" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/quiz/Quiz.go" />
+      <filePath value="$PROJECT_DIR$/../gophercises/quiz/Quiz.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <configuration name="Scoreboard Server" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
-      <module name="gogurt" />
-      <working_directory value="$PROJECT_DIR$" />
+      <module name="gophercises" />
+      <working_directory value="$PROJECT_DIR$/../gophercises" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/quiz/Scoreboard.go" />
+      <filePath value="$PROJECT_DIR$/../gophercises/quiz/Scoreboard.go" />
       <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="gophercises" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="gophercises" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <list>
