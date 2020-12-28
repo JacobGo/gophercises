@@ -5,7 +5,7 @@ I am using this repository to document my first attempts with Go and share my th
 
 
 - [x] Quiz Game
-- [ ] URL Shortener
+- [x] URL Shortener
 - [ ] Choose Your Own Adventure
 - [ ] HTML Link Parser
 - [ ] Sitemap Builder

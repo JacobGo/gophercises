@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d450fa2-97e7-43fa-a1ac-0bb63c694b25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/urlshort/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/urlshort/urls.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/urlshort/handler_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/urlshort/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/urlshort/handler.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/urlshort/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/urlshort/main/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urlshort/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/urlshort/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +50,7 @@
       <recent name="$PROJECT_DIR$/urlshort/main" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go">
+  <component name="RunManager" selected="Go Test.go test urlshort">
     <configuration name="Run Quiz" type="CompoundRunConfigurationType">
       <toRun name="Scoreboard Server" type="GoApplicationRunConfiguration" />
       <toRun name="Quiz Client" type="GoApplicationRunConfiguration" />
@@ -86,14 +85,35 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go test urlshort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="gophercises" />
+      <working_directory value="$PROJECT_DIR$/urlshort" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$/urlshort" />
+      <filePath value="$PROJECT_DIR$/urlshort/handler_test.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go test urlshort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="gophercises" />
+      <working_directory value="$PROJECT_DIR$/urlshort" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$/urlshort" />
+      <filePath value="$PROJECT_DIR$/urlshort/handler_test.go" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Compound.Run Quiz" />
       <item itemvalue="Go Build.Quiz Client" />
       <item itemvalue="Go Build.Scoreboard Server" />
       <item itemvalue="Go Build.go build main.go" />
+      <item itemvalue="Go Test.go test urlshort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.go test urlshort" />
+        <item itemvalue="Go Test.go test urlshort" />
         <item itemvalue="Go Build.go build main.go" />
       </list>
     </recent_temporary>
@@ -113,5 +133,8 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/gophercises$handler_test_go.out" NAME="go test urlshort Coverage Results" MODIFIED="1609118016380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

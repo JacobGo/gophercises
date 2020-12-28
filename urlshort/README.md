@@ -6,6 +6,7 @@
 
 ### Neat Features
 * Read YAML from file instead of a string
+* Added my first Go unit test! could cover more of course
 
 ### Ideas
 * Keep track of how many times a redirect is handled
