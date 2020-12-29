@@ -10,4 +10,4 @@ I am using this repository to document my first attempts with Go and share my th
 - [ ] HTML Link Parser
 - [ ] Sitemap Builder
 - [ ] Hacker Rank Problem
-- [ ] CLI Task Manager
+- [x] CLI Task Manager
