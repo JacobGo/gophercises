@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d450fa2-97e7-43fa-a1ac-0bb63c694b25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/task/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task/cmd/add.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task/cmd/do.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task/cmd/list.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task/cmd/root.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task/db/tasks.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phonenumbers/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phonenumbers/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -21,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Go Application" />
         <option value="Go File" />
+        <option value="Go Application" />
       </list>
     </option>
   </component>
@@ -38,7 +32,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="sqlite" />
-    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="DefaultGoTemplateProperty" value="Go Application" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -52,11 +46,12 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/phonenumbers" />
       <recent name="$PROJECT_DIR$/urlshort" />
       <recent name="$PROJECT_DIR$/urlshort/main" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go (1)">
+  <component name="RunManager" selected="Go Build.Normalize Phone Numbers">
     <configuration name="Run Quiz" type="CompoundRunConfigurationType">
       <toRun name="Scoreboard Server" type="GoApplicationRunConfiguration" />
       <toRun name="Quiz Client" type="GoApplicationRunConfiguration" />
@@ -65,6 +60,14 @@
     <configuration default="true" type="CompoundRunConfigurationType">
       <toRun name="Scoreboard Server" type="GoApplicationRunConfiguration" />
       <toRun name="Quiz Client" type="GoApplicationRunConfiguration" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Normalize Phone Numbers" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="gophercises" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/phonenumbers/main.go" />
+      <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <configuration name="Quiz Client" type="GoApplicationRunConfiguration" factoryName="Go Application">
@@ -130,16 +133,17 @@
       <item itemvalue="Go Build.Quiz Client" />
       <item itemvalue="Go Build.Scoreboard Server" />
       <item itemvalue="Go Build.URL Shortener" />
-      <item itemvalue="Go Test.go test urlshort" />
       <item itemvalue="Go Build.go build main.go" />
       <item itemvalue="Go Build.go build main.go (1)" />
+      <item itemvalue="Go Build.Normalize Phone Numbers" />
+      <item itemvalue="Go Test.go test urlshort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.Normalize Phone Numbers" />
         <item itemvalue="Go Build.go build main.go (1)" />
         <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.URL Shortener" />
-        <item itemvalue="Go Test.go test urlshort" />
         <item itemvalue="Go Test.go test urlshort" />
       </list>
     </recent_temporary>
