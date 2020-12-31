@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d450fa2-97e7-43fa-a1ac-0bb63c694b25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/phonenumbers/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/phonenumbers/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quiethackernews/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quiethackernews/hn/client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quiethackernews/index.gohtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quiethackernews/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -25,7 +27,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1mEjx793ieI7gb0IYiXyALBKRLv" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -51,7 +55,7 @@
       <recent name="$PROJECT_DIR$/urlshort/main" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.Normalize Phone Numbers">
+  <component name="RunManager" selected="Go Build.Quiet HackerNews">
     <configuration name="Run Quiz" type="CompoundRunConfigurationType">
       <toRun name="Scoreboard Server" type="GoApplicationRunConfiguration" />
       <toRun name="Quiz Client" type="GoApplicationRunConfiguration" />
@@ -67,6 +71,14 @@
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/phonenumbers/main.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Quiet HackerNews" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="gophercises" />
+      <working_directory value="$PROJECT_DIR$/quiethackernews" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/quiethackernews/main.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -119,15 +131,6 @@
       <filePath value="$PROJECT_DIR$/urlshort/handler_test.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go test urlshort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="gophercises" />
-      <working_directory value="$PROJECT_DIR$/urlshort" />
-      <framework value="gotest" />
-      <kind value="DIRECTORY" />
-      <directory value="$PROJECT_DIR$/urlshort" />
-      <filePath value="$PROJECT_DIR$/urlshort/handler_test.go" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Compound.Run Quiz" />
       <item itemvalue="Go Build.Quiz Client" />
@@ -136,15 +139,15 @@
       <item itemvalue="Go Build.go build main.go" />
       <item itemvalue="Go Build.go build main.go (1)" />
       <item itemvalue="Go Build.Normalize Phone Numbers" />
-      <item itemvalue="Go Test.go test urlshort" />
+      <item itemvalue="Go Build.Quiet HackerNews" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.Quiet HackerNews" />
         <item itemvalue="Go Build.Normalize Phone Numbers" />
         <item itemvalue="Go Build.go build main.go (1)" />
         <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.URL Shortener" />
-        <item itemvalue="Go Test.go test urlshort" />
       </list>
     </recent_temporary>
   </component>

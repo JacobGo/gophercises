@@ -12,3 +12,4 @@ I am using this repository to document my first attempts with Go and share my th
 - [ ] Hacker Rank Problem
 - [x] CLI Task Manager
 - [x] Phone Number Normalizer
+- [x] Quiet Hacker News
