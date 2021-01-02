@@ -2,12 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d450fa2-97e7-43fa-a1ac-0bb63c694b25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/quiethackernews/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quiethackernews/hn/client.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quiethackernews/index.gohtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quiethackernews/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagetransformer/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagetransformer/frontend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagetransformer/frontend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagetransformer/frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagetransformer/frontend/preact.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagetransformer/frontend/size-plugin.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagetransformer/frontend/src/assets/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagetransformer/frontend/src/assets/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagetransformer/frontend/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagetransformer/frontend/src/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagetransformer/frontend/src/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagetransformer/frontend/src/sw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagetransformer/frontend/src/template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagetransformer/images/IMG_2668.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagetransformer/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +45,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="DefaultGoTemplateProperty" value="Go Application" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -45,6 +56,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="go.sdk" />
   </component>
@@ -55,7 +67,7 @@
       <recent name="$PROJECT_DIR$/urlshort/main" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.Quiet HackerNews">
+  <component name="RunManager" selected="Go Build.Image Transformer">
     <configuration name="Run Quiz" type="CompoundRunConfigurationType">
       <toRun name="Scoreboard Server" type="GoApplicationRunConfiguration" />
       <toRun name="Quiz Client" type="GoApplicationRunConfiguration" />
@@ -64,6 +76,14 @@
     <configuration default="true" type="CompoundRunConfigurationType">
       <toRun name="Scoreboard Server" type="GoApplicationRunConfiguration" />
       <toRun name="Quiz Client" type="GoApplicationRunConfiguration" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Image Transformer" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="gophercises" />
+      <working_directory value="$PROJECT_DIR$/imagetransformer" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/imagetransformer/main.go" />
+      <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <configuration name="Normalize Phone Numbers" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
@@ -98,56 +118,19 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="URL Shortener" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
-      <module name="gophercises" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/urlshort/main/main.go" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="gophercises" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/task/main.go" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="gophercises" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/tasks/main.go" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go test urlshort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="gophercises" />
-      <working_directory value="$PROJECT_DIR$/urlshort" />
-      <framework value="gotest" />
-      <kind value="DIRECTORY" />
-      <directory value="$PROJECT_DIR$/urlshort" />
-      <filePath value="$PROJECT_DIR$/urlshort/handler_test.go" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Compound.Run Quiz" />
       <item itemvalue="Go Build.Quiz Client" />
       <item itemvalue="Go Build.Scoreboard Server" />
-      <item itemvalue="Go Build.URL Shortener" />
-      <item itemvalue="Go Build.go build main.go" />
-      <item itemvalue="Go Build.go build main.go (1)" />
       <item itemvalue="Go Build.Normalize Phone Numbers" />
       <item itemvalue="Go Build.Quiet HackerNews" />
+      <item itemvalue="Go Build.Image Transformer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.Image Transformer" />
         <item itemvalue="Go Build.Quiet HackerNews" />
         <item itemvalue="Go Build.Normalize Phone Numbers" />
-        <item itemvalue="Go Build.go build main.go (1)" />
-        <item itemvalue="Go Build.go build main.go" />
-        <item itemvalue="Go Build.URL Shortener" />
       </list>
     </recent_temporary>
   </component>
@@ -166,6 +149,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/gophercises$handler_test_go.out" NAME="go test urlshort Coverage Results" MODIFIED="1609118016380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
